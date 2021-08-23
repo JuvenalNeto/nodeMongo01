@@ -7,7 +7,7 @@ livro = require('./api/Models/livroModel')
 bodyParser = require('body-parser')
 
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb+srv://Juvenal:Net01001@testenode.lpm1e.mongodb.net/testenode?retryWrites=true&w=majority')
+mongoose.connect('link do mongodb')
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
