@@ -7,6 +7,7 @@ livro = require('./api/Models/livroModel')
 bodyParser = require('body-parser')
 
 mongoose.Promise = global.Promise
+//https://cloud.mongodb.com
 mongoose.connect('link do mongodb')
 
 app.use(bodyParser.urlencoded({ extended: true }))
